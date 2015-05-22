@@ -17,6 +17,15 @@ body {
 	/*border: 0.5px dotted black;*/
 }
 
+.header_title a {
+	color: white;
+	text-decoration: none;
+}
+
+.header_title a:hover {
+	color: gray;
+}
+
 .body_banner {
 	width: 75%;
 	height: 150px;
