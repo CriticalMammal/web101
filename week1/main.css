@@ -1,0 +1,40 @@
+.header_container {
+	width: 100%;
+	margin: auto;
+}
+
+.header_title {
+	float: left;
+	width: 25%;
+	color: white;
+	font-size: 24pt;
+	background-color: blue;
+	text-align: center;
+	/*border: 0.5px dotted black;*/
+}
+
+.body_banner {
+	width: 75%;
+	height: 150px;
+	margin: auto;
+	padding: 20px;
+}
+
+.banner_box {
+	float: left;
+	width: 33.33%;
+	height: 150px;
+	color: white;
+	background-color: red;
+	text-align: center;
+}
+
+.basic_border {
+	border: 1px solid black;
+}
+
+#border_example {
+	border: 1px solid black;
+	padding: 10px;
+	margin: 30px;
+}
