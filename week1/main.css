@@ -1,3 +1,7 @@
+body {
+	background-color: darkgrey;
+}
+
 .header_container {
 	width: 100%;
 	margin: auto;
@@ -8,7 +12,7 @@
 	width: 25%;
 	color: white;
 	font-size: 24pt;
-	background-color: blue;
+	background-color: darkblue;
 	text-align: center;
 	/*border: 0.5px dotted black;*/
 }
@@ -25,7 +29,7 @@
 	width: 33.33%;
 	height: 150px;
 	color: white;
-	background-color: red;
+	background-color: darkred;
 	text-align: center;
 }
 
@@ -36,5 +40,6 @@
 #border_example {
 	border: 1px solid black;
 	padding: 10px;
-	margin: 30px;
+	margin-top: 30px;
+	margin-bottom: 30px;
 }
