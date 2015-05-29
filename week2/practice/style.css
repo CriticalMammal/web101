@@ -49,6 +49,10 @@ footer {
 	outline: 1px solid grey;
 }
 
+.header_inner li:hover {
+	background-color: lightgrey;
+}
+
 
 .header_inner a {
 	text-decoration: none;
@@ -63,38 +67,57 @@ footer {
 }
 
 .main_banner {
-	margin: 100px auto 0px 10%;
-	width: 80%;
+	display: block;
+	margin: 100px auto 0px auto;
+	width: 1000px;
 	height: 650px;
 }
 
 .sub_banner {
 	margin: auto;
 	margin-top: 100px;
-	width: 80%;
+	width: 1000px;
 	height: 300px;
 }
 
-.sub_banner img {
+.sub_banner li {
 	display: inline-block;
 	float: left;
-	width: 33.33%;
+	margin-right: 20px;
+	width: 320px;
 	height: 100%;
+}
+
+.sub_banner li:nth-child(3) {
+	margin-right: 0px;
+}
+
+.sub_banner img {
+	width: 100%;
+	height: 100%;
+	display: block;
+	margin: auto;
+	outline: 1px solid darkgray;
+}
+
+.featured_content {
+	display: block;
+	margin: 100px auto 0px auto;
+	width: 1000px;
+	height: 500px;
 }
 
 .featured_banner {
 	display: inline-block;
-	margin: 100px 0px 100px 10%;
-	width: 40%;
+	width: 500px;
 	float: left;
 	height: 500px;
 }
 
 .featured_text {
 	display: inline-block;
-	width: 40%;
+	width: 500px;
 	height: 500px;
-	margin: 100px 10% 0px 0px;
 }
 
 .featured_text h1 {
