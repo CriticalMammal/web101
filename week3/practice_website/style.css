@@ -1,0 +1,55 @@
+body {
+	font-family: Helvetica;
+	color: #000;
+}
+
+a {
+	text-decoration: none;
+	color: #444;
+}
+
+header {
+	background-color: #e3e3e3;
+	height: 100px;
+}
+
+.header_inner {
+	width: 960px;
+	margin: 0 auto;
+	/*outline: dotted 1px orange;*/
+}
+
+.header_inner img {
+	display: inline-block;
+	float: left;
+	margin-top: 14px;
+	margin-right: 50px;
+}
+
+.nav {
+	display: inline-block;
+	margin-top: 40px;
+}
+
+.nav li {
+	display: inline-block;
+	margin-right: 120px;
+}
+
+.content {
+	width: 960px;
+ 	margin: 30px auto;
+}
+
+.main_banner {
+	margin-bottom: 30px;
+}
+
+.sub_banner li {
+	float: left;
+	margin-right: 30px;
+}
+
+.sub_banner li:last-child {
+	margin-right: 0px;
+}
